@@ -1,0 +1,47 @@
+* contar hasta 10**10**2 con for vs formulas matematicas
+** https://www.youtube.com/watch?v=EuleUt88PKA
+** resumen y codigo del video ... (el resultado es MUY grande...)
+* 5e+199
+*** en el video se hablo que que se queria comparar la eficiencia de un for vs hacerlo matematicamente (con formulas no muy detalladas )
+* el for 
+#+begin_src python
+nums = 10**10**2 #el numero hasta donde se va sumar
+acumulador = 0
+for i in range(nums):
+    acumulador += i
+    print(i, acumulador)
+print(acumulador)    
+#+end_src
+* las formulas
+#+begin_src python
+nums = 10**10**2 #el numero hasta donde se va sumar
+#entiendo que si sumo los numeros del "nums" hasta 1  con los numeros 1 hasta el "nums" en ese orden dberia dar nums+1 
+paso2 =(nums)+1
+#divido la cantidad a sumar de numeros en 2 para tener en cuenta que la mitad de la cantidad  numeros los sume con numeros que ya estan dentro de los que se van a sumar (ya los conte y no se nesitan contar de nuevo por que darian el doble del resultado) ... 
+paso3 =(nums)/2
+#multiplico el la mitad de la cantidad de numeros con lo que medio un numero + otro numero de nums en "orden" con el mas cercano a 0  y el mas lejano de los que se van a sumar que es igual a (nums)+1 
+paso4 = paso2*paso3
+return paso4
+#+end_src
+
+#+RESULTS:
+: 5e+199
+
+* ¿formula de progresion?
+** es parecido a lo que dicen que hiso gauss de niño por lo que investige hiso algo como :
+#+begin_src python
+nums = 10**10**2 
+#+begin_src python
+paso2 = nums+1
+paso3 = paso2*nums
+paso4 = paso3/2
+return paso4
+#+end_src 
+
+#+RESULTS:
+: 5e+199
+
+
+* ¿5e+199 ?
+**** 5e+199 = 12446030555722283414288128107560248481180504337442334266202233229579397668070766882367889646251427233913933179110244964249432086944580078125
+

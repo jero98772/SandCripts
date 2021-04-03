@@ -1,0 +1,207 @@
+<form method="post" enctype="multipart/form-data">
+	<table style=" width:100%;" border="1">
+
+	<tr>
+		<td>scientific name</td>
+		<td><input type="text" name="scientific_name" placeholder="scientific name" ></td>
+		<td>common name</td>
+		<td><input type="text" name="common_name" placeholder="common name" ></td>
+
+	</tr>
+	<tr>
+		<td>minimun of ph</td> 
+		<td><input type="text" name="minph" placeholder="minimun of ph "></td>
+		<td>maximum of ph</td>
+		<td><input type="text" name="maxph" placeholder="maximum of ph"></td>
+	</tr>
+	<tr>
+
+		<td>minimun of gh  </td>
+		<td><input type="text" name="mingh" placeholder="minimun of gh"></td>
+		<td>maximum of gh</td>
+		<td><input type="text" name="maxgh" placeholder="maximum of gh"></td>
+
+	</tr>
+	<tr>
+		<td>minimun of temperature °C</td>
+		<td><input type="text" name="mintemperature" placeholder="minimun of temperature °C"></td>
+		<td>maximum of temperature °C</td>
+		<td><input type="text" name="maxtemperature" placeholder="maximum of temperature °C"></td>
+
+	</tr>
+	<tr>
+		<td>weight of in kilos kg</td>
+		<td><input type="text" name="weight" placeholder="weight in kilos"></td>
+		<td>large of fish cm</td>
+		<td><input type="text" name="large_of_fish_in_centimeters" placeholder="large of fish in centimeters"></td>
+	</tr>
+	<tr>
+		<td>needed liters</td>
+		<td><input type="text" name="needed_liters" placeholder="needed liters"></td>
+		<td>can coexist with plants</td>
+		<td><select name="withpalnts">
+				<option>no </option>
+				<option>yes </option>
+	</tr>
+	<tr>
+		<td>that eats omnivore, carnivore or herbivore</td>
+		<td><select name="eats">
+
+		<option>    omnivore  eat all </option>
+		<option>    carnivore  only eat meet </option>
+		<option>    herbivore  only eat plant</option>
+
+		</select></td>
+		<td>can eat or  recommended food</td>
+		<td><input type="text" name="can_eat" placeholder="can eat"></td>
+	</tr>
+	<tr> 
+		
+		<td>type of reproduction</td>
+		<td><select name="reproduction">
+				<option>oviparous   </option>
+				<option>oral incubator  </option>
+				<option>viviparous </option>
+		</select></td>
+		<td>if that fish can kill it why? or not </td>
+		<td><input type="text" name="kill" placeholder="if that fish can kill it why?"></td>
+	</tr>
+	<tr> 
+		
+		<td>type of breathing</td>
+		<td><select name="breathing">
+				<option>fresh water</option>
+				<option>fresh water and Anabantoidei</option>
+				<option>breathing in the sea</option>
+
+		</select></td>
+		<td>place of the mouth</td>
+		<td>
+			<select name="mouth">
+				<option>has the upper mouth  </option>
+				<option>his mouth is in the middle   </option>
+				<option>has the lower mouth </option>
+
+		</select></td>
+	</tr>
+	<tr> 
+		<td>latitude</td>
+		<td><input type="text" name="latitude" placeholder="laitud fish  habitat  "></td>
+		<td>longitude </td>
+		<td><input type="text" name="longitude" placeholder="longitude fish  habitat  "></td>
+	</tr>
+
+	<tr> 
+		
+		<td>country</td>
+		<td><input type="text" name="country" placeholder="country name(s) in where does the fish live "></td>
+		<td>state</td>
+		<td><input type="text" name="state" placeholder="state name(s) in where does the fish live "></td>
+	</tr>
+
+	<tr> 
+		
+		<td>city</td>
+		<td><input type="text" name="city" placeholder="city name(s) in where does the fish live "></td>
+		<td>river ,lake or sea</td>
+		<td><input type="text" name="waterenv" placeholder="river ,lake or sea name(s) in where does the fish live "></td>
+	</tr>
+	<tr> 
+		
+		<td>fish temperament</td>
+		<td>
+		<select name="temperament">
+				<option>the fish is passive   </option>
+
+				<option>the fish is agresive  </option>
+		</select>
+		</td>
+		<td>fish behavior (personality)</td>
+		<td><input type="text" name="behavior" placeholder="fish behavior personality"></td>
+	</tr>
+	<tr>
+		<td> swimming zone</td>
+		<td>
+			<select name="swimming_zone">
+				<option>the fish swims in up zone  </option>
+				<option>the fish swims in middle zone  </option>
+				<option>the fish swims in down zone  </option>
+			</select>
+		</td>
+		<td>move slow ,faster or middle that human swiming</td>
+		<td><select name="vel">
+				<option>the fish swims faster   </option>
+				<option>the fish swims middle  faster </option>
+				<option>the fish swims middle   </option>
+				<option>the fish swims middle  slow </option>
+				<option>the fish swims slow  </option>
+		</select></td>
+	<tr> 
+
+	<tr> 
+		
+		<td>recommended light</td>
+		<td>
+		<select name="light">
+				<option>a lot of light   </option>
+				<option>directly light of sun  </option>
+				<option>small shadow   </option>
+				<option>shadow</option>
+				<option>live in  deep ocean </option>
+		</select></td>
+		<td>gravel</td>
+		<td><input type="text" name="gravel" placeholder="best gravel or substratum for this fish "></td>
+	</tr>
+	<tr> 
+		
+		<td>habitats</td>
+		<td><input type="text" name="habitats" placeholder="this fish habitats in the wild"></td>
+		<td>habits </td>
+		<td><input type="text" name="habits" placeholder="this fish habits in the wild"></td>
+	</tr>
+	<tr> 
+		
+		<td>structural shape</td>
+		<td><input type="text" name="structuralshape" placeholder="shape of ornaments of habitat"></td>
+		<td>ornaments</td>
+		<td><input type="text" name="ornaments" placeholder="shape ornaments of habitat"></td>
+
+	</tr>
+	<tr> 
+		
+
+		<td>ecosistem</td>
+		<td><input type="text" name="ecosistem" placeholder="ecosystem where the fish lives (taking into account the climate and other animals and plants)"></td>
+		<td>forms surroundings fish rocks, buildings etc. </td>
+		<td><input type="text" name="forms_surroundings " placeholder="geometric shape and the points of the surroundings (rocks, buildings, etc.)"></td>
+	</tr>
+	<tr> 
+		
+
+		</select></td>
+		<td>description</td>
+		<td><input type="text" name="description" placeholder="description"></</td>
+		<td>fish photo</td>
+	</tr>
+
+	<tr> 
+		
+		<td colspan="2">summit changes</td>
+		<td colspan="2">
+		<button type="summit ">summit </button>
+		</td>	
+
+	</tr>
+		
+
+	<!--tr> 
+		
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr-->
+
+
+</table>
+</form>
