@@ -12,12 +12,10 @@ Here call  grain of sand to Small actions
 
 - scripts/img/procesamiento_img.py
 
-little tool to manipulate images as matrix ,tools like : image mirror, mirror image , roatete 90° ,grayscale ,pixel image ,more brightness , less brightness
-
 - scripts/img/img2asciiart.py
 
-do ascii art like [this](https://pastebin.com/R5LStkU7) or this small version . [test web version](https://jero98772.pythonanywhere.com/proyects/img2asciiart.html)
-
+# like ascii art like [this](https://pastebin.com/R5LStkU7) or this small version . [test web version](https://jero98772.pythonanywhere.com/proyects/img2asciiart.html)
+|
 	                        🐟️🐟️🐟️            
 	                     🐟️🐟️   🐟️🐟️         
 	                  🐟️               🐟️      
@@ -37,6 +35,8 @@ do ascii art like [this](https://pastebin.com/R5LStkU7) or this small version . 
 - scripts/matrixs/vecmattool.py
 
 matrix and vectors operators ,like transposed ,inner product , matrix product and addition... 
+
+see more at [scripts descriptions](https://github.com/jero98772/SandCripts/blob/main/docs/scripts_descriptions.md)
 
 #Donate
 	- Bitcoin: bc1qf3eh6ssgzw2t3qyjk2gzwuskq4ctfk8375fg3r
