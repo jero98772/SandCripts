@@ -50,3 +50,7 @@ codification like [old phone keyboard](https://external-content.duckduckgo.com/i
 test for encript data in data base,the user is the only one who can see your data 
 way to respect the user's privacy and the ethics of the project.
 
+- plots_code/dnaPlot.py
+
+code to plot nitrogenous bases like arae porcetaje of a square 
+[plot](http://wiki.unloquer.org/_media/personas/jero98772/diana_plot_test.png)
