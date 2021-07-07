@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>test</title>
+    </head>
+    <body>
+        <form method="post">
+            <table>
+                <tr>
+                    <th>name</th>
+                    <th>langue</th>
+                    <th>edit</th>
+                    <th>delete</th>
+                </tr>
+                {% for i in blogs %}
+                <tr>
+                    <td>{{ i }}</td>
+                    <td></td>
+                    <td><input type="checkbox" name="edit" value="{{ i }}"></td>
+                    <td><input type="checkbox" name="delete" value="{{ i }}"></td>
+                </tr>
+                {% endfor %}
+            </table>
+            <input type="submit">
+        </form>
+        {{ msg}}
+    </body>
+</html>
