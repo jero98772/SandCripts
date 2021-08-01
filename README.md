@@ -64,7 +64,3 @@ encript data in data base,the user is the only one who can see your data
 way to respect the user's privacy and the ethics of the project.
 
 ![edebdb](https://github.com/jero98772/SandCripts/blob/main/docs/screenshots/encdb.png?raw=true)
-
-
-# Donate
-	- Bitcoin: bc1qf3eh6ssgzw2t3qyjk2gzwuskq4ctfk8375fg3r
