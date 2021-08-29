@@ -64,3 +64,7 @@ encript data in data base,the user is the only one who can see your data
 way to respect the user's privacy and the ethics of the project.
 
 ![edebdb](https://github.com/jero98772/SandCripts/blob/main/docs/screenshots/encdb.png?raw=true)
+
+
+![termianlAnimation](https://github.com/jero98772/SandCripts/blob/main/docs/screenshots/termianlAnimation.gif?raw=true)
+
