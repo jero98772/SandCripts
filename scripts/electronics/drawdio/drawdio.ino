@@ -1,6 +1,6 @@
 int drawudioInPin = A0;
 int drawudioIn = 0;
-int drawudioOut = 12;
+int drawudioOut = 2;//D2
 
 void setup() {
   // put your setup code here, to run once:
